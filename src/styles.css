@@ -1,0 +1,106 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+header a {
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+}
+
+header a:hover {
+    transition: 0.2s;
+    color: cadetblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(#222, #444);
+}
+
+.title {
+    color: white;
+    font-size: 62px;
+}
+
+.simpleText {
+    color: white;
+    font-size: 16px;
+}
+
+.areaInput {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+
+.areaInput input {
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    margin-right: 8px;
+    color: white;
+    outline: none;
+}
+
+.areaInput input::placeholder {
+    color: lightgray;
+}
+
+.btnProcurar {
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnProcurar:hover {
+    transition: 0.2s;
+    transform: translateY(-2px);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F1F1F1;
+    padding: 18px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.main:hover {
+    transition: 0.2s;
+    transform: translateY(-5px) scale(1.005);
+}
+
+.main h2 {
+    margin: 16px 0;
+    font-size: 39px;
+}
+
+.main span {
+    font-weight: bold;
+    margin-bottom: 16px;
+}
